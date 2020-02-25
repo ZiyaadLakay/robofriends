@@ -20,7 +20,6 @@ const mapDispacthToProps = (dispatch) => {
         onSearch: (event) => dispatch(setSearchField(event.target.value)),
         onRequestRobots : () => dispatch(requestRobots())
     }
-    
 }
 
 class App extends Component{
